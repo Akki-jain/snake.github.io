@@ -1,0 +1,13 @@
+{
+  "name": "classic-snake-game",
+  "version": "1.0.0",
+  "description": "A classic snake game with dark aesthetic",
+  "main": "script.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

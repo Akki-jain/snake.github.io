@@ -1,0 +1,28 @@
+body {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    position: relative;
+}
+
+#game-board {
+    display: block;
+    background-color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #ccc;
+    text-shadow: 1px 1px 0 #00ff00;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}

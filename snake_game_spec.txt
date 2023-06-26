@@ -1,0 +1,46 @@
+Specification: Classic Snake Game with Dark Aesthetic
+
+1. Overview
+The program should create a classic snake game with a dark aesthetic, where the player controls a snake to eat food and grows longer. The game should have a score count and be styled with tiles. The snake should be gray in color with each tile of the body using a different shade of gray and slim black borders. The food should be neon green in color with shadows. The game should be web-based, using only HTML, CSS, and JavaScript. It should also be responsive and placed in the center of the screen.
+
+2. Core Classes, Functions, and Methods
+
+2.1. Game Class
+- Purpose: To manage the overall game state, including the snake, food, and score.
+- Methods:
+  - init(): Initialize the game, create the snake and food objects, and set up event listeners.
+  - start(): Start the game loop.
+  - update(): Update the game state, including the snake's position, collision detection, and score.
+  - draw(): Render the game elements on the screen.
+  - gameOver(): Display the game over message and reset the game state.
+
+2.2. Snake Class
+- Purpose: To manage the snake's state, including its position, direction, and body.
+- Methods:
+  - init(): Initialize the snake's position, direction, and body.
+  - move(): Update the snake's position based on its direction.
+  - changeDirection(): Update the snake's direction based on user input.
+  - grow(): Add a new tile to the snake's body.
+  - checkCollision(): Check if the snake has collided with itself or the game boundaries.
+
+2.3. Food Class
+- Purpose: To manage the food's state, including its position and appearance.
+- Methods:
+  - init(): Initialize the food's position and appearance.
+  - generate(): Generate a new food item at a random position on the game board.
+  - checkCollision(): Check if the snake has collided with the food.
+
+2.4. Utility Functions
+- createCanvas(): Create the HTML canvas element and set its dimensions.
+- drawTile(): Draw a tile on the canvas with the specified position, size, and color.
+- getRandomPosition(): Generate a random position within the game board.
+
+3. Non-standard Dependencies
+- None. The game should be built using only standard HTML, CSS, and JavaScript features.
+
+4. Additional Notes
+- The game should be responsive, adjusting its size and layout based on the screen size.
+- The game board should be placed in the center of the screen, with a dark background and gray tiles.
+- The snake should be gray in color, with each tile of the body using a different shade of gray and slim black borders.
+- The food should be neon green in color with shadows.
+- The score should be displayed in the top-left corner of the screen, with a dark font color and a neon green shadow.
